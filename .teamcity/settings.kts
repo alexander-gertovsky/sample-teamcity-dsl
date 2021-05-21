@@ -19,5 +19,8 @@ object HelloWorld: BuildType({
         maven {
             runnerArgs = "--version"
         }
+        maven {
+            runnerArgs = "--version"
+        }
     }
 })
