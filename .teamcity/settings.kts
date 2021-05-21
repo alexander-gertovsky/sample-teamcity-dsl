@@ -16,5 +16,8 @@ object HelloWorld: BuildType({
         script {
             scriptContent = "git --version"
         }
+        maven {
+            runnerArgs = "--version"
+        }
     }
 })
