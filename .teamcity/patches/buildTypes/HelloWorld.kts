@@ -20,7 +20,7 @@ changeBuildType(RelativeId("HelloWorld")) {
         }
     }
     steps {
-        insert(0) {
+        insert(2) {
             maven {
                 runnerArgs = "--version"
             }
